@@ -2,6 +2,32 @@
 
 Notes from the lectures
 
+# A function does not have to have parameters
+    def add_two():
+        return num + 2
+
+# If you do not provide values for the parameters the function can't execute
+def add_two(num):
+    return num + 2
+
+add_two()
+
+TypeError: add_two() takes exactly 1 arguments (0 given) on line 4
+
+# A function doesn't have to return a value but not doing so is kinda pointless
+def add_two(num):
+    num + 2
+
+add_two(2)
+
+# The variable doesn't store the value outside of the function
+def add_two(num):
+    result = num + 2
+
+add_two(2)
+print(result)
+
+NameError: name 'result' is not defined on line 5
 
 ## NameError
 
