@@ -8,3 +8,4 @@
 * _A good naming convention_ pluralize the list and singularize a the individual values
 ## Functions!
 * syntax is as follows: def **my-function** ( parameters ): _followed by function body_
+## Use is_ naming convention for functions that return boolean values!

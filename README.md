@@ -2,7 +2,7 @@
 
 Notes from the lectures
 
-# A function does not have to have parameters
+# A function may have 0 or more parameters
     def add_two():
         return num + 2
 
@@ -20,7 +20,7 @@ def add_two(num):
 
 add_two(2)
 
-# The variable doesn't store the value outside of the function
+# The value that is implicitly returned and stoed is the **special value** none
 def add_two(num):
     result = num + 2
 
